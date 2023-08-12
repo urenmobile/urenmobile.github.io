@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.stubhub",
+      "package_name": "com.uren.myapplication",
       "sha256_cert_fingerprints":
         ["FA:88:35:FE:7E:19:03:C8:56:D0:E6:32:F7:6A:C4:D6:30:17:8F:80:6A:D3:5F:3D:78:F5:2D:A2:34:D2:CA:92"]
     }

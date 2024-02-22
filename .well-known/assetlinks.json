@@ -2,10 +2,10 @@
   {
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
-      "namespace": "android_app",
-      "package_name": "com.uren.myapplication",
+      "namespace": "com.uren.demopasskey",
+      "package_name": "com.uren.demopasskey",
       "sha256_cert_fingerprints":
-        ["7F:FD:67:8C:42:E2:CE:45:30:E5:80:86:74:3A:5D:35:B1:03:71:DC:7D:06:08:73:B0:42:E3:25:76:E9:69:4A"]
+        ["69:02:86:53:40:76:1D:2B:F1:BD:AC:0C:D0:C8:CF:05:39:EB:67:0C:F7:AB:FC:20:18:BB:51:8F:DC:77:2C:6C"]
     }
   }
 ]

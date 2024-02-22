@@ -1,10 +1,23 @@
 [{
-  "relation": [
-            "delegate_permission/common.handle_all_urls",
-            "delegate_permission/common.get_login_creds"
-        ],
+  "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
-    "namespace": "com.uren.demopasskey",
+    "namespace": "android_app",
+    "package_name": "com.uren.demopasskey",
+    "sha256_cert_fingerprints":
+    ["AE:54:5C:33:F7:E7:07:B4:20:9C:3A:97:07:D6:2A:77:81:A1:C4:58:D7:7F:18:FF:EA:7B:BB:38:3F:E6:64:07"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://urenmobile.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
     "package_name": "com.uren.demopasskey",
     "sha256_cert_fingerprints":
     ["AE:54:5C:33:F7:E7:07:B4:20:9C:3A:97:07:D6:2A:77:81:A1:C4:58:D7:7F:18:FF:EA:7B:BB:38:3F:E6:64:07"]

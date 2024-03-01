@@ -17,7 +17,8 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.stubhub",
-      "sha256_cert_fingerprints": [
+      "sha256_cert_fingerprints": 
+      [
         "69:02:86:53:40:76:1D:2B:F1:BD:AC:0C:D0:C8:CF:05:39:EB:67:0C:F7:AB:FC:20:18:BB:51:8F:DC:77:2C:6C"
       ]
     }

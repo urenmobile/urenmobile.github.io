@@ -1,25 +1,107 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.smoobu.app.dev",
-    "sha256_cert_fingerprints":
-    ["22:25:50:B8:F3:23:74:61:17:D9:CF:E8:A7:B7:BE:9E:40:1F:4F:6B:73:C6:3E:5B:0D:9B:69:31:6C:3F:D0:47"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://urenmobile.github.io"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.smoobu.app.dev",
+      "sha256_cert_fingerprints": [
+        "22:25:50:B8:F3:23:74:61:17:D9:CF:E8:A7:B7:BE:9E:40:1F:4F:6B:73:C6:3E:5B:0D:9B:69:31:6C:3F:D0:47"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.smoobu.app.dev",
+      "sha256_cert_fingerprints": [
+        "22:25:50:B8:F3:23:74:61:17:D9:CF:E8:A7:B7:BE:9E:40:1F:4F:6B:73:C6:3E:5B:0D:9B:69:31:6C:3F:D0:47"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.smoobu.app.dev",
+      "sha256_cert_fingerprints": [
+        "9F:6E:0E:54:32:69:DB:AD:7F:40:81:87:1B:4F:53:D9:59:F8:E3:6E:10:62:A7:9B:9B:2D:FE:94:2B:76:89:D8"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.smoobu.app.dev",
+      "sha256_cert_fingerprints": [
+        "9F:6E:0E:54:32:69:DB:AD:7F:40:81:87:1B:4F:53:D9:59:F8:E3:6E:10:62:A7:9B:9B:2D:FE:94:2B:76:89:D8"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.smoobu.app",
+      "sha256_cert_fingerprints": [
+        "22:25:50:B8:F3:23:74:61:17:D9:CF:E8:A7:B7:BE:9E:40:1F:4F:6B:73:C6:3E:5B:0D:9B:69:31:6C:3F:D0:47"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.smoobu.app",
+      "sha256_cert_fingerprints": [
+        "22:25:50:B8:F3:23:74:61:17:D9:CF:E8:A7:B7:BE:9E:40:1F:4F:6B:73:C6:3E:5B:0D:9B:69:31:6C:3F:D0:47"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.smoobu.app",
+      "sha256_cert_fingerprints": [
+        "9F:6E:0E:54:32:69:DB:AD:7F:40:81:87:1B:4F:53:D9:59:F8:E3:6E:10:62:A7:9B:9B:2D:FE:94:2B:76:89:D8"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.smoobu.app",
+      "sha256_cert_fingerprints": [
+        "9F:6E:0E:54:32:69:DB:AD:7F:40:81:87:1B:4F:53:D9:59:F8:E3:6E:10:62:A7:9B:9B:2D:FE:94:2B:76:89:D8"
+      ]
+    }
   }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://urenmobile.github.io"
-  }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.smoobu.app.dev",
-    "sha256_cert_fingerprints":
-    ["22:25:50:B8:F3:23:74:61:17:D9:CF:E8:A7:B7:BE:9E:40:1F:4F:6B:73:C6:3E:5B:0D:9B:69:31:6C:3F:D0:47"]
-  }
-}]
+]
